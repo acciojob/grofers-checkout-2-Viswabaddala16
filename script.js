@@ -3,7 +3,7 @@
 const groceryListTable = document.getElementById("grocery-list");
 
 // Find all the elements with data-ns-test="prices"
-const priceElements = groceryListTable.querySelectorAll('[data-ns-test="prices"]');
+const priceElements = groceryListTable.querySelectorAll('[data-ns-test="price"]');
 
 // Initialize the total price
 let totalPrice = 0;
